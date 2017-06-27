@@ -1,10 +1,10 @@
 
 $(function () {
-    var backgrounds = ['url(../images/banner.jpg)', 'url(../images/banner2.jpg)', 'url(../images/banner3.jpg)'];
+    var backgrounds = ['url(/images/banner.jpg)', 'url(/images/banner2.jpg)', 'url(/images/banner3.jpg)'];
     var current = 0;
     var timer;
 
-    function nextBackground() { //funkcja zmieniająca obrazku w sliderze
+    function nextBackground() { 
 
         $(".masthead").stop().animate({
                 opacity: 0
