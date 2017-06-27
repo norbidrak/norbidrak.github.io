@@ -1,6 +1,6 @@
 
 $(function () {
-    var backgrounds = ['url(costam/images/banner.jpg)', 'url(costam/images/banner2.jpg)', 'url(costam/images/banner3.jpg)'];
+    var backgrounds = ['url(images/banner.jpg)', 'url(images/banner2.jpg)', 'url(images/banner3.jpg)'];
     var current = 0;
     var timer;
 
